@@ -1,0 +1,117 @@
+/*12楼*/
+.floor12Box{
+	width: 100%;margin-top: 20px;
+}
+.floor12{
+	width: 1210px;margin: 0 auto;overflow: hidden;
+}
+/*12楼的左部*/
+.floor12 .bg_One{
+	width: 210px;height: 237px;padding-top: 237px;
+	background: url(../img/floor12/001.jpg) no-repeat;float: left;
+}
+.floor12 .bg_Two{
+	width: 210px;height: 237px;padding-top: 237px;
+	background: url(../img/floor12/002.jpg) no-repeat;float: left;
+}
+/*12楼的左部的上部*/
+.floor12 .floor12Left .floor12LeftTop{
+	overflow: hidden;background: #e4f6fd;padding:10px 10px 0px 23px
+}
+.floor12 .floor12Left .floor12LeftTop li{
+	display: block;
+}
+.floor12 .floor12Left .floor12LeftTop li a{
+	display: block;width: 58px;height: 26px;line-height: 26px;
+	color: #666666;padding-left: 30px;
+}
+.floor12 .floor12Left .floor12LeftTop a:hover{
+	color: #B1191A;
+}
+.floor12 .floor12Left .floor12LeftTop .floor12LeftTopA1 a{
+	background: url(../img/floor12/lifeicon.png) no-repeat 0 0;
+	margin-bottom: 20px;margin-right: 10px;
+}
+.floor12 .floor12Left .floor12LeftTop .floor12LeftTopA2 a{
+	background: url(../img/floor12/lifeicon.png) no-repeat 0 -26px;
+	margin-bottom: 10px;
+}
+
+/*12楼的左部的下部*/
+.floor12 .floor12Left .floor12LeftBottom{
+	background-color: #eff9fe;height: 104px;padding: 18px 23px 23px 23px;
+}
+.floor12 .floor12Left .floor12LeftBottom a:hover{
+	color: #B1191A;
+}
+.floor12 .floor12Left .floor12LeftBottom p{
+	line-height: 26px;
+}
+.floor12 .floor12Left .floor12LeftBottom p a{
+	color: #666;
+}
+.floor12 .floor12Left .floor12LeftBottom .floor12LeftBottomList{
+	overflow: hidden;margin-top: 6px;
+}
+.floor12 .floor12Left .floor12LeftBottom .floor12LeftBottomList li{
+	float: left;margin-right: 12px;line-height: 24px;
+}
+.floor12 .floor12Left .floor12LeftBottom .floor12LeftBottomList li a{
+	color: #999;
+}
+.floor12 .floor12Left .floor12LeftBottom .floor12LeftBottomList li a:hover{
+	color: #B1191A;
+}
+.floor12 .floor12Left .floor12LeftBottom .floor12LeftBottomList .floor12LeftActive{
+	color: #B1191A;
+}
+
+/*12楼的右部*/
+.floor12Right{
+    width: 394px;height: 475px;
+	position: relative;float:left;overflow: hidden;
+}
+.floor12Right .floor12Scroll{
+	width: 394px;height: 237px;float: left!important;
+	border-bottom: 1px solid #ccc;border-right: 1px solid #ccc;
+	position: relative;overflow: hidden;
+}
+.floor12Right .floor12Scroll #floor12ScrollList{
+	width: 2195px;height: 235px;
+	position: absolute;left: 0;top: 0;
+} 
+.floor12Right .floor12Scroll #floor12ScrollList li{
+	width: 439px;height: 235px;float: left;
+}
+.floor12Right>a{
+	float: left;border-bottom: 1px solid #EDEDED;border-right: 1px solid #EDEDED;
+}
+
+/*下标的样式*/
+.floor12 .floor12Right .floor12Scroll #floor12NumList{
+	position: absolute;width: 70px;height: 10px;
+	line-height: 10px;left: 50%;margin-left: -35px;bottom: 6px;
+}
+#floor12NumList li{
+	float: left;width: 10px;height: 10px;border-radius: 5px;
+	background-color: #3e3e3e;margin-right: 6px;cursor: pointer;
+}
+#floor12NumList .floor12NumListActive{
+	background-color: #B1191A;
+}
+/*轮播图中的上一张和下一张*/
+.floor12Scroll span{
+	display: block;position: absolute;width: 30px;height: 60px;
+	font-size: 30px;text-align: center;line-height: 60px;
+	color: #fff;background: rgba(68, 68, 68, 0.4);top: 50%;
+	margin-top: -30px;cursor: pointer;display: none;
+}
+.floor12Scroll .floor12ToLeft{
+	left: 0;
+}
+.floor12Scroll .floor12ToRight{
+	right: 0;
+}
+.floor12Right > a{
+	display:inline-block;float:left;border-bottom: 1px solid #ccc;border-right: 1px solid #ccc;
+}

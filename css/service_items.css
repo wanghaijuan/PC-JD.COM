@@ -1,0 +1,17 @@
+/*slogen*/
+.service_items_wrap{
+	width: 100%;
+	background-color: #f5f5f5;
+	margin-top: 20px;
+	height: 94px;
+}
+.service_items{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 20px 0 20px 10px;
+	overflow: hidden;
+}
+.service_items li{
+	float: left;
+	margin-right: 80px;
+}

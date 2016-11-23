@@ -1,0 +1,9 @@
+header{
+	width: 100%;
+	height: 110px;
+}
+header .head{
+	width: 1210px;
+	height: 110px;
+	margin:0 auto;
+}

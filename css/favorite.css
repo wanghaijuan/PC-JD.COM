@@ -1,0 +1,59 @@
+.favoriteWrap{
+	width: 100%;margin-top:10px;
+}
+.favorite{
+	width: 1210px;margin: 0 auto;
+}
+.enjoy{
+	line-height: 30px;margin-top:20px;
+}
+.enjoy h2{
+	font-size:20px;color: #333;display:inline-block;font-weight: 400;
+}
+.enjoy .enjoyPic{
+	display:inline-block;width:224px;height:14px;
+	background: url(../img/favorite/homebg.png) 0px -101px;
+}
+.enjoy .transPic{
+	float: right;padding-right:25px;position: relative;
+}
+.myclass1{
+	background: url(../img/favorite/homebg.png) no-repeat -350px -6px;
+}
+.myclass2{
+	background: url(../img/favorite/homebg.png) no-repeat -350px -30px;
+}
+.enjoy .transPic i{
+	display:inline-block;width:20px;height:20px;
+	position:absolute;top:5px;right:0px;
+}
+.recommend {
+	border: 1px solid #ededed;overflow: hidden;
+}
+.redLine{
+	position: relative;
+}
+.redLine .line{
+	position: absolute;right:-1px;top:-2px;overflow: hidden;
+	width: 365px;height:5px;background: url(../img/favorite/homebg.png) no-repeat 0px -124px;
+}
+.recommend li {
+	float: left;width:200px;center;
+}
+.recommend li .reImg{
+	width:130px;height:130px;margin: 0 auto;
+	padding-top: 20px;padding-bottom:8px;
+}
+.recommend li .reImg a{
+	display: inline-block;width:130px;height:130px;
+}
+.recommend li .reInfo{
+	border-left: 1px solid #e6e6e6; solid #ccc;
+	padding: 6px 40px;margin-bottom:6px;
+}
+.recommend li .reName{
+	overflow: hidden;height: 36px;margin-bottom: 6px;
+}
+.recommend li .rePrice{
+	color: #b51d1a;font-size: 18px;text-align: center;
+}

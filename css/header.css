@@ -1,0 +1,127 @@
+/*logo_search  logo、搜索栏和购物车*/
+#head{
+	width: 100%;border-bottom: 2px solid #b1191a;overflow: hidden;
+	
+}
+#head .header{
+	width: 1210px;margin: 0 auto;overflow: hidden;
+	background: url(../img/header/trolley.png) no-repeat right bottom;
+}
+
+/*Logo*/
+.header .logo h1{
+	float: left;width:270px;height:60px;
+	background: url(../img/header/JD_logo.png) no-repeat 0 0;margin-top: 18px;
+}
+
+/*搜索栏*/
+.header .searchBox{
+	margin-top: 25px;float: left;margin-left:96px;
+}
+.header .searchInput{
+	width:538px;height:40px;
+}
+.header .searchInput .searchTxt{
+	float:left;width: 446px;height:24px;line-height:24px;
+	border:2px solid #B61D1D;border-right: none;padding:4px;
+	font-size: 14px;color:#666;
+}
+.header .searchBtn{
+	float:left;width: 82px;height: 36px;
+	background:#B61D1D;color: #fff;
+	font-size: 16px;cursor: pointer;
+}
+
+/*热搜文本*/
+.searchBox .hotSearch{float: left;}
+.searchBox .hotSearch a{
+	margin-right:8px;line-height: 20px;
+}
+.searchBox .hotSearch a:hover,.searchBox .hotSearch a:first-child{
+	color:rgb(200, 22, 35);
+}
+
+/*购物车*/
+.trolley{
+	float:left;position: relative;width: 70px;height:34px;line-height:34px;
+	padding-left:42px;padding-right: 24px;margin-top: 25px;margin-left:104px;
+	border: 1px solid #ddd;cursor:pointer;
+}
+.trolley .car{
+	position:absolute;left:15px;top:10px;
+	width:16px;height:13px;
+	background: url(../img/topNav/header.png) -1px -59px no-repeat;
+}
+.trolley #number{
+	position: absolute;left:96px;top:-4px;
+	display: inline-block;min-width: 12px;line-height: 12px;text-align: center;
+	text-align: center;background-color: #c81623;padding: 1px 2px;
+	border-radius:7px 7px 7px 0px;color: #fff;
+}
+.trolley .arr_right{
+	position:absolute;left:110px;top:2px;font-size:16px;line-height:34px;font-family: courier;
+}
+.trolley:hover{
+	height: 35px;
+	background-color: #fff;border-bottom: none;
+}
+.trolley a:hover{
+	color: #C81623!important;
+}
+.trolley #shoppingList{
+	width: 290px;padding: 5px 10px;
+	position: absolute;top: 35px;right: -1px;
+	border: 1px solid #dfdfdf;border-top: none;
+	background-color: #fff;z-index: 100;display: none;
+}
+#shoppingList li{
+	height: 50px;line-height: 50px;
+	padding-left: 20px;padding: 5px 0;
+	border-bottom: 1px dotted #ccc;
+}
+#shoppingList li:first-child{
+	color: #7d7d7d;text-align: right;
+	background: url(../img/topNav/floor.png) no-repeat 40px -440px;
+}
+#shoppingList li:last-child{
+	border-bottom: none;
+}
+#shoppingList li a:first-child{
+	float: left;width: 50px;height: 50px;margin-right: 10px;
+}
+#shoppingList li a:last-child{
+	float: left;width: 200px;height: 40px;line-height: 20px;
+	overflow: hidden;margin: 5px 0;
+}
+#shoppingList li a img{
+	width: 48px;height: 48px;border: 1px solid #ccc;
+}
+.trolley #shoppingBorder{
+	width: 176px;height: 1px;
+	background-color: #dfdfdf;
+	position: absolute;left: -176px;bottom: 0;
+	display: none;z-index: 101;
+}
+/*导航栏*/
+.navigation {
+	clear: both;float: left;
+}
+.navigation .allProduct{
+	float:left;width: 210px;height: 44px;line-height: 44px;
+	background:rgb(177, 25, 26);font-size: 16px;
+}
+.allProduct a{
+	color:#fff;padding: 0px 10px;font-weight: 400;
+}
+.nav{
+	float: left;font-size: 16px;height: 44px;
+}
+.nav li{
+	float: left;height: 44px;line-height: 44px;padding:0px 20px;
+}
+.nav li a{
+	color:rgb(51, 51, 51);font-weight: 400;
+}
+.nav li a:hover{
+	color:rgb(200, 22, 35);
+}

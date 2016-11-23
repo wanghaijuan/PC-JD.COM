@@ -1,0 +1,207 @@
+/*10楼*/
+.floor10Box{
+	width: 100%;margin-top: 20px;
+}
+.floor10{
+	width: 1210px;margin: 0 auto;overflow: hidden;
+}
+/*10楼的左部*/
+.floor10 .floor10Left{
+	width: 210px;height: 238px;padding-top: 236px;
+	background: url(../img/floor10/001.jpg) no-repeat;float: left;
+}
+/*10楼的左部的上部*/
+.floor10 .floor10Left .floor10LeftTop{
+	overflow: hidden;background: #e4f6fd;padding: 10px;
+}
+.floor10 .floor10Left .floor10LeftTop li{
+	float: left;
+}
+.floor10 .floor10Left .floor10LeftTop li a{
+	display: block;width: 58px;height: 26px;line-height: 26px;
+	color: #666666;padding-left: 30px;
+}
+.floor10 .floor10Left .floor10LeftTop a:hover{
+	color: #B1191A;
+}
+.floor10 .floor10Left .floor10LeftTop .floor10LeftTopA1 a{
+	background: url(../img/floor10/booksicon.png) no-repeat 0 0;
+	margin-bottom: 20px;margin-right: 10px;
+}
+.floor10 .floor10Left .floor10LeftTop .floor10LeftTopA2 a{
+	background: url(../img/floor10/booksicon.png) no-repeat 0 -26px;
+	margin-bottom: 20px;
+}
+.floor10 .floor10Left .floor10LeftTop .floor10LeftTopA3 a{
+	background: url(../img/floor10/booksicon.png) no-repeat 0 -52px;
+	margin-right: 10px;
+}
+.floor10 .floor10Left .floor10LeftTop .floor10LeftTopA4 a{
+	background: url(../img/floor10/booksicon.png) no-repeat 0 -78px;
+}
+/*10楼的左部的下部*/
+.floor10 .floor10Left .floor10LeftBottom{
+	background-color: #eff9fe;height: 100px;padding: 23px;
+}
+.floor10 .floor10Left .floor10LeftBottom a:hover{
+	color: #B1191A;
+}
+.floor10 .floor10Left .floor10LeftBottom p{
+	line-height: 26px;
+}
+.floor10 .floor10Left .floor10LeftBottom p a{
+	color: #666;
+}
+.floor10 .floor10Left .floor10LeftBottom .floor10LeftBottomList{
+	overflow: hidden;margin-top: 6px;
+}
+.floor10 .floor10Left .floor10LeftBottom .floor10LeftBottomList li{
+	float: left;margin-right: 12px;line-height: 24px;
+}
+.floor10 .floor10Left .floor10LeftBottom .floor10LeftBottomList li a{
+	color: #999;
+}
+.floor10 .floor10Left .floor10LeftBottom .floor10LeftBottomList li a:hover{
+	color: #B1191A;
+}
+.floor10 .floor10Left .floor10LeftBottom .floor10LeftBottomList .floor10LeftActive{
+	color: #B1191A;
+}
+
+/*10楼的右部*/
+.floor10Right{
+	width: 1000px;height: 474px;
+	position: relative;float: left;
+}
+.floor10Right .floor2Box1{
+	width: 1000px;height: 474px; 
+	position: absolute;left: 0;top: 0;display: none;
+}
+.floor10Right .floor10Box1 .bigMain{
+	width: 660px;height: 474px;float: left;overflow: hidden;
+}
+.floor10Right .floor10Box1 .bigMain >a{
+	float: left;
+	border-bottom: 1px solid #ccc;border-right: 1px solid #ccc;
+}
+.floor10Box1 .floor10Scroll{
+	width: 439px;height: 236px;float: left!important;
+	border-bottom: 1px solid #ccc;border-right: 1px solid #ccc;
+	position: relative;overflow: hidden;
+}
+.floor10Box1 .floor10Scroll #floor10ScrollList{
+	width: 2195px;height: 235px;
+	position: absolute;left: 0;top: 0;
+} 
+.floor10Box1 .floor10Scroll #floor10ScrollList li{
+	width: 439px;height: 235px;float: left;
+}
+/*热门作者*/
+.floor10Right .floor10Box1 > .hotAuthor{
+	width:339px;height:473px;float: left;overflow: hidden;
+	border-bottom: 1px solid #ccc;border-right: 1px solid #ccc;
+}
+.hotAuthor > h3 {
+    margin: 14px 15px 0 10px; padding-left: 5px;padding-bottom: 10px;
+    font-size: 20px;line-height: 23px;border-bottom: 1px solid #e4e4e4;
+    font-weight: 400;color: #666;
+}
+#author {
+    padding-left: 15px;
+}
+#author li {
+    height: 80px;margin-top: 20px; overflow: hidden;
+}
+#author .author-info {
+    float: left;width: 48px; padding: 2px 15px 0 4px;text-align: center; 
+}   
+#author .author-info > a img{
+	width: 48px;height: 48px;
+	border-radius: 50%;margin-bottom: 6px;
+} 
+#author .book-img {
+    float: left;padding-left: 8px;
+    width: 80px; height: 80px;
+    border-left: 1px dotted #dbdbdb;
+}
+#author .book-img > a img{
+	width: 80px; height: 80px;
+}
+#author .book-info {
+    float: left;padding-left: 10px;
+}
+#author .book-info .book-name {
+    width: 150px;height: 18px; margin-bottom: 5px;overflow: hidden;
+    font-size: 14px; font-family: "microsoft yahei";
+}
+#author .book-detail {
+	position: relative;width: 115px;height: 34px;
+	padding: 10px 15px 10px 20px;background: #f8f8f8;
+	color: #999;overflow: visible;
+}
+#author .book-detail p {
+    height: 38px; overflow: hidden;
+    word-break: break-all;/*word-break:break-all则不会把长单词放在一个新行里，当这一行放不下的时候就直接强制断句*/
+}
+#author .icon-r {
+    font-size: 38px;line-height: 38px;
+    color: #aaa;font-family: Arial;
+}
+#author .detail-arrow {
+    position: absolute;left: -9px;
+    top: 19px; color: #f8f8f8;font-size: 20px;
+}
+#author .icon-l {
+    position: absolute;left: 4px;
+    top: 7px; font-size:38px;line-height: 38px;color: #aaa; 
+    font-family: Arial;
+}
+/*下标的样式*/
+.floor10 .floor10Right .floor10Box1 .floor10Scroll #floor10NumList{
+	position: absolute;width: 70px;height: 10px;
+	line-height: 10px;left: 50%;margin-left: -35px;bottom: 6px;
+}
+#floor10NumList li{
+	float: left;width: 10px;height: 10px;border-radius: 5px;
+	background-color: #3e3e3e;margin-right: 6px;cursor: pointer;
+}
+#floor10NumList .floor10NumListActive{
+	background-color: #B1191A;
+}
+/*轮播图中的上一张和下一张*/
+.floor10Scroll span{
+	display: block;position: absolute;width: 30px;height: 60px;
+	font-size: 30px;text-align: center;line-height: 60px;
+	color: #fff;background: rgba(68, 68, 68, 0.4);top: 50%;
+	margin-top: -30px;cursor: pointer;display: none;
+}
+.floor10Scroll .floor10ToLeft{
+	left: 0;
+}
+.floor10Scroll .floor10ToRight{
+	right: 0;
+}
+.floor10Box1 > a{
+	display:inline-block;float:left;border-bottom: 1px solid #ccc;border-right: 1px solid #ccc;
+}
+/*其它的商品列表框*/
+.floor10Right .floor10Box2{
+	overflow: hidden;display: none;
+}
+.floor10Right .floor10Box2 li{
+	float: left;width: 169px;height: 206px;padding: 15px;
+	border-bottom: 1px solid #ccc;border-right: 1px solid #ccc;
+}
+.floor10Right .floor10Box2 li dl dt img{
+	margin: 0 auto;
+}
+.floor10Right .floor10Box2 .floor10Box2ListDesc{
+	display: block;height: 44px;line-height: 22px;overflow: hidden;
+	color: #666;margin-top: 10px;margin-bottom: 4px;
+}
+.floor10Right .floor10Box2 .floor10Box2ListDesc:hover{
+	color: #C81623;
+}
+.floor10Right .floor10Box2 .floor10Box2ListPrice{
+	font-size: 16px;color: #e4393c;
+}

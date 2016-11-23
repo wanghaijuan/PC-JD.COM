@@ -1,0 +1,4 @@
+<?php 
+$db = mysql_connect("mysql的主机名","用户名",“密码");//这个是链接数据库的
+mysql_select_db("数据库表",$db);//这个是链接你数据库中哪个表单的
+?>

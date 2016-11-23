@@ -1,0 +1,135 @@
+/*天天低价*/
+.specialWrap{
+	width: 100%;	color: #666;
+}
+.special{
+	width:1210px;margin: 0 auto;
+}
+.specialPrice a{
+	display: inline-block;
+}
+.special h2{
+	height: 36px;font: 400 20px/30px "微软雅黑";
+}
+/*天天低价的产品*/
+.specialPrice{
+	width: 940px;float: left;
+}
+
+/*热门晒单*/
+.specialJudge{
+	width: 268px;float: left;
+}
+
+.specialPrice{
+	width: 901px;overflow: hidden;
+}
+.specialPrice h2{
+	width:900px;
+}
+/*产品*/
+.special1Product{
+	overflow:hidden;width:900px;height: 279px;
+	border: 1px solid #E5E5E5;border-right: 0px;
+}
+
+/*热门晒单 动图*/
+.specialBox{
+	width: 268px;height: 224px;
+	padding: 35px 20px 20px;
+	border: 1px solid #EDEDED;border-left: 0px;
+}
+.specialBanner{
+	float:left;overflow:hidden;
+	width:268px; height: 217px;
+	position: relative;
+}
+
+/*低价产品 介绍*/
+.special1Product li{
+	overflow:hidden;float: left;padding: 18px 10px;
+	border-right: 1px solid #EDEDED;border-bottom: 1px solid #EDEDED;
+	width: 199px;height: 104px;
+}
+.special1Product .specialFirst{
+	width:219px;height: 245px;text-align: center;
+}
+.specialFirst .specialImg{
+	width:219;height: 180px;margin-top: 10px;overflow: hidden;
+}
+.specialInfo{
+	width:180px;height: 18px;line-height: 18px;
+	overflow: hidden;padding-left:16px;margin-bottom: 10px;
+}
+.specialPri{
+	width: 180px;float: left;color:#e12228;
+	font:700 16px arial;text-align: left;padding-left:16px;
+}
+.pImg{
+	float: left;width: 100px;height: 100px;overflow: hidden;
+}
+.pInfo{
+	width:92px;float: right;height: 36px;
+	overflow: hidden;margin-bottom: 6px;
+}
+.pPric{
+	float: right;width: 92px;height: 18px;
+	color:#e12228;font:700 16px arial;
+}
+
+/*热门晒单 介绍*/
+.judge{
+	overflow: hidden;height: 594px;
+	position: absolute;top:0px;left: 0px;
+}
+.judge li{
+	height: 100px;
+	overflow: hidden;
+	margin-bottom:24px;
+}
+.judge-img{
+    float: left;display: inline-block;
+    padding: 10px 0; width: 80px; height: 80px;
+}
+.judge-img img{
+	width: 80px;height: 80px;
+}
+.judge-info img{
+	border-radius:40%;display: inline-block;float:left;
+}
+.judge-info{
+    float: left; display: inline-block;
+    width: 166px; padding-left: 20px;margin-top: 3px;
+}
+
+.judge .judgePeo {
+    height: 28px; margin-bottom: 5px; overflow: hidden;display: inline-block;
+}
+.judge .judgePeo img {
+	width: 28px;height: 28px;
+	margin-right: 5px;border-radius: 50%;
+	vertical-align: middle;
+}
+.judge .judgePeo span{
+	float:left;font-size: 14px;line-height:28px;padding-left: 6px;
+}
+.judgeSay{
+	width: 130;height:34px;background: #f8F8F8;
+	overflow: hidden;position: relative;padding: 10px 15px 10px 20px;
+}
+.judgeSay a{
+	display: block; height: 38px;overflow: hidden; word-break: break-all;
+	
+}
+.judgeSay a .icon-r{
+    font-size: 38px;line-height: 38px;
+    color: #aaa;font-family: Arial;
+}
+.judgeSay .detail-arrow{
+	position: absolute;left: -9px;top: 19px;
+    color: #f8f8f8;font-size: 20px;
+}
+.judgeSay .icon-l{
+	position: absolute;left: 3px;top:3px;font-family: Arial;
+	font-size: 40px;line-height: 40px;color: #aaa;
+}

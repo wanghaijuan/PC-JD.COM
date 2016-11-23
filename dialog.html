@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<style>
+			*{
+				margin: 0;padding: 0;
+				font: 12px/150% Arial,Verdana,"\5b8b\4f53";
+				color: #666;
+			}
+			a{text-decoration: none;}
+			ul li{list-style: none;}
+			.dialog-close{
+			    display: block;position: absolute;top: 10px;right: 10px;
+			    overflow: hidden;width: 13px;height: 13px;
+			    background: url(//misc.360buyimg.com/jdf/1.0.0/ui/dialog/1.0.0/dialog.png) no-repeat;
+			    
+			}
+			}
+		</style>
+	</head>
+	<body>
+		<a class="dialog-close" title="关闭"></a>
+		<button> 点击</button>
+		<div class="dialog-content">
+			<div class="dialogIframe">
+				<div class="login-form">
+					<div class="login-box">
+						<!--登录表单 的标题-->
+						<div class="form-title">
+							<h2>京东会员</h2>
+							<div class="extra-r">
+								<div class="regist-link">
+									<a href="#">
+										<b></b>
+										立即注册
+									</a>
+                    			</div>
+							</div>
+						</div>
+						<!--登录表单的提示-->
+						<div class="msg-wrap">
+			                <div class="msg-warn"><b></b>公共场所不建议自动登录，以防账号丢失</div>
+			                <div class="msg-error hide"><b></b></div>
+           				 </div>
+           				<!-- 登录表单 的登录信息-->
+           				<div class="login-info">
+           					<div class="form">
+                    			<form id="formlogin" method="post" onsubmit="return false;">
+                        			<!--用户-->
+                        			<div class="item item-fore1">
+			                            <label for="loginname" class="login-label name-label"></label>
+			                            <input id="loginname" class="itxt" name="loginname" tabindex="1" autocomplete="off" placeholder="邮箱/用户名/已验证手机" type="text">
+			                            <span class="clear-btn"></span>
+                       				</div>
+                       				<!--密码-->
+                    				<div id="entry" class="item item-fore2">
+			                            <label class="login-label pwd-label" for="loginpwd"></label>
+			                            <label id="loginpwd" style="display: none;"></label>
+			                            <input id="loginpwd" name="loginpwd" class="itxt itxt-error" tabindex="2" autocomplete="off" placeholder="密码" type="password">
+			                            <span class="clear-btn"></span>
+			                            <span class="capslock" style="display: none;"><b></b>大小写锁定已打开</span>
+			                        </div>
+			                       	<!-- 安全信息-->
+			                       	<div class="item item-fore3">
+			                            <div class="safe">
+			                                <span>
+			                                    <input id="autoLogin" name="chkRememberMe" class="jdcheckbox" tabindex="3" type="checkbox">
+			                                    <label for="">自动登录</label>
+			                                </span>
+			                                <span class="forget-pw-safe">
+			                                    <a href="#" class="" target="_blank" >忘记密码?</a>
+			                                </span>
+			                            </div>
+			                        </div>
+			                     	<!--登录按钮-->
+			                     	<div class="item item-fore5">
+			                            <div class="login-btn">
+			                                <a href="#" class="btn-img" id="loginsubmit">登&nbsp;&nbsp;&nbsp;&nbsp;录</a>
+			                            </div>
+			                        </div>
+			                        
+			                        <div class="reg-free mb10"></div>
+			                        
+			                       	<!--合作伙伴-->
+			                        <div class="coagent">
+									    <h5>使用合作网站账号登录京东：</h5>
+									    <ul>
+						                    <li>
+							                	<a href="#">京东钱包</a><span class="line">|</span>
+							                </li>
+							                <li>
+							                	<a href="#">QQ</a><span class="line">|</span>
+							                </li>
+							                <li>
+							                	<a href="#">微信</a>
+							           		</li>
+						           		</ul>
+									</div>
+                    			</form>
+                       		</div>
+           				</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div id="boxNull"></div>
+	</body>
+	<script>
+//	onload = function(){
+//		var main = document.getElementById("dialog-content");
+//		var box = document.getElementById("boxNull");
+//		var btn = document.getElementsByTagName('button')[0];
+//		btn.onclick = function(){
+//			box.insertBefore(main,box)
+//		}
+//	}
+
+$(function(){
+	var content = $(".dialog-content").html();
+	console.log(content);
+})
+		
+	</script>
+</html>

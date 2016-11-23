@@ -1,0 +1,239 @@
+/* topNavWrap页面头部的样式*/
+#topNavWrap{
+	width: 100%;height: 30px;background-color: #f1f1f1;
+}
+/*页面头部包裹内容的盒子*/
+.topNavContent{
+	width: 1210px;margin: 0 auto;color: #666;line-height: 30px;
+}
+.topNavContent a{
+	color: #666;
+}
+.topNavContent a:hover{
+	color: #c81623;
+}
+.topNavContent h4{
+	line-height: 24px;
+	height: 24px;
+}
+/*--------sendTo-------*/
+.topNavContent #sendTo{
+	height: 30px;float: left;display: inline-block;
+	position: relative;padding: 0 10px;
+	border-left: 1px solid #f1f1f1;
+	border-right: 1px solid #f1f1f1;
+}
+#sendTo:hover{
+	height: 30px;
+	background-color: #fff;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+#sendTo #address{
+	padding-right: 14px;
+	background: url(../img/topNav/arrowDown.png) no-repeat right center;
+}
+#addressList{
+	width: 300px;background-color: #fff;
+	border: 1px solid #ddd;border-top: none;
+	position: absolute;top:30px;left: -1px;
+	padding: 6px;z-index:10;display: none;
+}
+#addressList > li{
+	float: left;width: 60px;color: #979797;
+}
+#addressList > li > a{
+	color: #666;padding: 4px 7px;	
+}
+#addressList a:hover{
+	color: #c81623;
+}
+#addressList li .active{
+	background-color: #c81623;color: #fff;
+}
+
+/*---- .topNav .topNav_right 页面顶部的导航栏----*/
+.topNav .topNav_right{
+	height: 30px;float: right;
+}
+.topNav_right > li{
+	float: left;
+}
+/*-------.topNav 里的  间隔柱--------*/
+.topNav_right li.spacer{
+	height: 12px;width: 1px;
+	background-color: #dddddd;margin: 9px 1px 0;
+}
+.topNav_right > li > a{
+	padding: 0 10px;color: #666;
+}
+/*---- 免费注册 ------*/
+.topNav_right .register > a{
+	color: #c81623;
+	padding-left: 0px;
+}
+/*---- 我的京东 ----*/
+.topNav_right .myJD{
+	position: relative;padding-right:10px;
+	border-left: 1px solid #f1f1f1;border-right: 1px solid #f1f1f1;
+}
+.myJD:hover{
+	background-color: #fff;
+	border-left: 1px solid #ddd;border-right: 1px solid #ddd;
+}
+.myJD > a{
+	padding-right: 14px!important;
+	background: url(../img/topNav/arrowDown.png) no-repeat right center;
+}
+.myJD div{
+	position: absolute;top: 30px;left: -1px;z-index: 100;
+	background-color: #fff;width: 250px;padding: 10px 15px;
+	border: 1px solid #ddd;border-top: none;display: none;
+}
+.myJD div a{color: #666;}
+.myJD div a:hover{color: #c81623;}
+.myJD div dl{height: 60px;}
+.myJD div dl dt{float: left;margin-right: 10px;}
+.myJD div dl dd{float: left;}
+.myJD div dl dd p{height: 24px;line-height: 24px;}
+.myJD div dl dd a{margin-right: 10px;float: left;}
+.myJD div dl dd .spacer{height: 12px;width: 1px;background-color: #666;margin-top: 7px;}
+.myJD #myList{margin-top: 10px;}
+#myList li{float: left;width: 120px;height: 22px;line-height: 24px;}
+
+/*------ 手机京东 ------*/
+.topNav_right .phoneJD{
+	position: relative;padding-left:10px;padding-right: 10px;
+	border-left: 1px solid #f1f1f1;border-right: 1px solid #f1f1f1;
+}
+.phoneJD .phone{
+	position: absolute;top:8px;left:6px;
+	width:11px;height: 16px;background: url(../img/topNav/header.png) -2px -2px no-repeat;
+}
+.phoneJD:hover{
+	background-color: #fff;
+	border-left: 1px solid #ddd;border-right: 1px solid #ddd;
+}
+.phoneJD > a{
+	padding-right: 14px!important;
+	background: url(../img/topNav/arrowDown.png) no-repeat right center;
+}
+.phoneJD > a{
+	padding-left: 26px;
+}
+#phoneJD{
+	width: 160px;height: 185px;background-color: #fff;
+	padding-left: 90px;padding-top: 10px;
+	border: 1px solid #ddd;border-top: none;
+	position: absolute;left: -1px;top: 30px;z-index: 100;
+	background:url(../img/topNav/QR_Code.jpg) no-repeat center;display: none;
+}
+#phoneJD .phoneJDGift{
+	height:20px;width: 90px;display: block;
+}
+#phoneJD p{
+	color: #C81623;padding-left: 9px;line-height:24px;
+}
+#phoneJD .phoneBox{
+	height: 44px;
+}
+#phoneJD .iphone, #phoneJD .android{
+	width: 56px;height: 44px;float: left;
+}
+#phoneJD .ipad{
+	width: 45px;height: 44px;float: left;
+}
+/*----- 关注京东 -------*/
+.topNav_right .followJD{
+	border-left: 1px solid #f1f1f1;border-right: 1px solid #f1f1f1;
+	position: relative;padding-right:10px;
+}
+.followJD:hover{
+	background-color: #fff;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.followJD > a{
+	padding-right: 14px!important;
+	background:url(../img/topNav/arrowDown.png) no-repeat right center;
+}
+.followJD #followJD{
+	width: 82px;text-align: center;
+	border: 1px solid #ddd;border-top: none;
+	position: absolute;left: -1px;top: 30px;z-index: 100;
+	padding-top: 10px;background-color: #fff;display: none;
+}
+.followJD #followJD img{
+	display: block;
+	margin: 0 auto;
+}
+/*----- 客服服务 -----*/
+.topNav_right .service{
+	border-left: 1px solid #f1f1f1;border-right: 1px solid #f1f1f1;
+	position: relative;padding-right:10px;
+}
+.service:hover{
+	background-color: #fff;
+	border-left: 1px solid #ddd;border-right: 1px solid #ddd;
+}
+.service > a{
+	padding-right: 14px!important;
+	background:url(../img/topNav/arrowDown.png) no-repeat right center;
+}
+.service #service{
+	width: 170px;border: 1px solid #ddd;
+	position: absolute;left:-1px;top: 30px;z-index: 100;
+	background-color: #fff;border-top: none;display: none;
+}
+#service .custom{
+	padding-left: 10px;padding-bottom: 5px;border-bottom: 1px dotted #ddd;
+}
+#service .custom ul{
+	overflow: hidden;
+}
+#service .custom li{
+	float: left;margin-right: 30px;
+	height: 24px;line-height: 24px;
+}
+#service .merchant{
+	padding-left: 10px;padding-bottom: 10px;
+}
+#service .merchant p{
+	height: 24px;line-height: 24px;
+}
+#service .merchant a{
+	margin-right: 15px;
+}
+/*------ 网页导航 ------*/
+.topNav_right .siteNav{
+	border-left: 1px solid #f1f1f1;
+	border-right: 1px solid #f1f1f1;
+	position: relative;padding-right: 10px;
+}
+.siteNav:hover{
+	background-color: #fff;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.siteNav > a{
+	padding-right: 14px!important;
+	background:url(../img/topNav/arrowDown.png) no-repeat right center;
+}
+.siteNav .subSiteNav{
+	padding-top: 20px;padding-bottom: 20px;
+	width: 1208px;border: 1px solid #ddd;border-top: none;
+	position: absolute;right: -1px;top: 30px;z-index: 100;
+	background-color: #fff;display: none;
+}
+.siteNav .subSiteNav ul{
+	float: left;padding-left: 20px;overflow: hidden;
+}
+.siteNav .subSiteNav ul li{
+	float: left;width: 85px;height: 24px;
+}
+.siteNav .subSiteNav .firstul{
+	width: 340px;
+}
+.siteNav .subSiteNav .otherul{
+	width: 255px;border-left: 1px solid #dddddd;
+}

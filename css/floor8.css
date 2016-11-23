@@ -1,0 +1,154 @@
+/*8楼*/
+.floor8Box{
+	width: 100%;margin-top: 20px;
+}
+.floor8{
+	width: 1210px;margin: 0 auto;overflow: hidden;
+}
+/*8楼的左部*/
+.floor8 .floor8Left{
+	width: 210px;height: 238px;padding-top: 236px;
+	background: url(../img/floor8/001.jpg) no-repeat;float: left;
+}
+/*8楼的左部的上部*/
+.floor8 .floor8Left .floor8LeftTop{
+	overflow: hidden;background: #e4f6fd;padding: 10px;
+}
+.floor8 .floor8Left .floor8LeftTop li{
+	float: left;
+}
+.floor8 .floor8Left .floor8LeftTop li a{
+	display: block;width: 58px;height: 26px;line-height: 26px;
+	color: #666666;padding-left: 30px;
+}
+.floor8 .floor8Left .floor8LeftTop a:hover{
+	color: #B1191A;
+}
+.floor8 .floor8Left .floor8LeftTop .floor8LeftTopA1 a{
+	background: url(../img/floor8/babysicon.png) no-repeat 0 0;
+	margin-bottom: 20px;margin-right: 10px;
+}
+.floor8 .floor8Left .floor8LeftTop .floor8LeftTopA2 a{
+	background: url(../img/floor8/babysicon.png) no-repeat 0 -26px;
+	margin-bottom: 20px;
+}
+.floor8 .floor8Left .floor8LeftTop .floor8LeftTopA3 a{
+	background: url(../img/floor8/babysicon.png) no-repeat 0 -52px;
+	margin-right: 10px;
+}
+.floor8 .floor8Left .floor8LeftTop .floor8LeftTopA4 a{
+	background: url(../img/floor8/babysicon.png) no-repeat 0 -78px;
+}
+/*8楼的左部的下部*/
+.floor8 .floor8Left .floor8LeftBottom{
+	background-color: #eff9fe;height: 100px;padding: 23px;
+}
+.floor8 .floor8Left .floor8LeftBottom a:hover{
+	color: #B1191A;
+}
+.floor8 .floor8Left .floor8LeftBottom p{
+	line-height: 26px;
+}
+.floor8 .floor8Left .floor8LeftBottom p a{
+	color: #666;
+}
+.floor8 .floor8Left .floor8LeftBottom .floor8LeftBottomList{
+	overflow: hidden;margin-top: 6px;
+}
+.floor8 .floor8Left .floor8LeftBottom .floor8LeftBottomList li{
+	float: left;margin-right: 12px;line-height: 24px;
+}
+.floor8 .floor8Left .floor8LeftBottom .floor8LeftBottomList li a{
+	color: #999;
+}
+.floor8 .floor8Left .floor8LeftBottom .floor8LeftBottomList li a:hover{
+	color: #B1191A;
+}
+.floor8 .floor8Left .floor8LeftBottom .floor8LeftBottomList .floor8LeftActive{
+	color: #B1191A;
+}
+
+/*8楼的右部*/
+.floor8Right{
+	width: 1000px;height: 474px;
+	position: relative;float: left;
+}
+.floor8Right .floor2Box1{
+	width: 1000px;height: 474px; 
+	position: absolute;left: 0;top: 0;display: none;
+}
+.floor8Right .floor8Box1 .smallPic{
+	width:219px;height: 473px;float: left;overflow: hidden;
+	border-bottom: 1px solid #ccc;border-right: 1px solid #ccc;
+}
+.floor8Right .floor8Box1 .smallPic > a{
+	display: block; border-bottom: 1px solid #ccc;border-right: 1px solid #ccc;
+}
+.floor8Right .floor8Box1 .floor8Scroll{
+	width: 339px;height: 473px;
+	border-right: 1px solid #ccc;border-bottom: 1px solid #ccc;
+	float: left;position: relative;overflow: hidden;
+}
+.floor8Right .floor8Box1 .floor2Scroll #floor8ScrollList{
+	width: 1695px;height: 473px;position: absolute;
+}
+#floor8ScrollList li{
+	width: 339px;height: 473px;float: left;
+}
+#floor8ScrollList li a{
+	display: block;
+}
+#floor8ScrollList li a:first-child{
+	border-bottom: 1px dashed #ccc;
+}
+.floor8Right .floor8Box1 > a{
+	float: left;border-right: 1px solid #ccc;border-bottom: 1px solid #ccc;
+}
+/*下标的样式*/
+.floor8 .floor8Right .floor8Box1 .floor8Scroll #floor8NumList{
+	position: absolute;width: 70px;height: 10px;line-height: 10px;
+	left: 50%;margin-left: -35px;bottom: 6px;
+}
+#floor8NumList li{
+	float: left;width: 10px;height: 10px;border-radius: 5px;
+	background-color: #3e3e3e;margin-right: 6px;cursor: pointer;
+}
+#floor8NumList .floor8NumListActive{
+	background-color: #B1191A;
+}
+/*轮播图中的上一张和下一张*/
+.floor8Scroll span{
+	display: block;position: absolute;width: 30px;
+	height: 60px;font-size: 30px;text-align: center;
+	line-height: 60px;color: #fff;
+	background: rgba(68, 68, 68, 0.4);
+	top: 50%;margin-top: -30px;cursor: pointer;display: none;
+}
+.floor8Scroll .floor8ToLeft{
+	left: 0;
+}
+.floor8Scroll .floor8ToRight{
+	right: 0;
+}
+
+/*其它的商品列表框*/
+.floor8Right .floor8Box2{
+	overflow: hidden;display: none;
+}
+.floor8Right .floor8Box2 li{
+	float: left;width: 169px;height: 206px;padding: 15px;
+	border-bottom: 1px solid #ccc;border-right: 1px solid #ccc;
+}
+.floor8Right .floor8Box2 li dl dt img{
+	margin: 0 auto;
+}
+.floor8Right .floor8Box2 .floor8Box2ListDesc{
+	display: block;height: 44px;line-height: 22px;overflow: hidden;
+	color: #666;margin-top: 10px;margin-bottom: 4px;
+}
+.floor8Right .floor8Box2 .floor8Box2ListDesc:hover{
+	color: #C81623;
+}
+.floor8Right .floor8Box2 .floor8Box2ListPrice{
+	font-size: 16px;color: #e4393c;
+}

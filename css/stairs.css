@@ -1,0 +1,42 @@
+.stairs{
+	position: fixed;
+	left: 0;
+	top: 50%;
+	width: 26px;
+	margin-top: -200px;
+	z-index: 102;
+	display: none;
+	background-color: #fff;
+}
+.stairs li{
+	color: #625351;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	border-bottom: 1px dashed #ccc;
+	cursor: pointer;
+	position: relative;
+}
+.stairs li:last-child{
+	border-bottom: none;
+}
+.stairs li span, .stairs li a{
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+	width: 26px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;	
+	display: none;
+}
+.stairs li span{
+	color: #B61D1D;
+	background-color: #fff;
+}
+.stairs li a{
+	color: #fff;
+	background-color: #B61D1D;
+}
+

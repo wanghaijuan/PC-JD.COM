@@ -1,0 +1,487 @@
+/*-----banner------*/
+#bannerWrap{
+	width: 100%;
+}
+#bannerWrap .banner{
+	width: 1210px;margin:0 auto;
+}
+
+/*-----banner 左侧 侧边栏的 全部商品菜单--------*/
+.banner #sidebar{
+	background-color:#c81623;width: 209px;color: #fff;font-size: 14px;
+	padding: 0 0 1px 1px;position: relative;float: left;
+}
+.banner #sidebar > li{
+	padding-left: 10px;height: 31px;line-height: 31px;
+}
+.banner #sidebar > li a{
+	color: #fff;
+}
+.banner #sidebar .hover{
+	background-color: #f7f7f7;color: #C81623;
+}
+.banner #sidebar > li:hover{
+	background-color: #f7f7f7;
+}
+.banner #sidebar > li:hover a{
+	color: #C81623;
+}
+.banner #sidebar > li:hover span{
+	display: none;
+}
+.banner #sidebar > li > span{
+	float: right;margin-right: 14px;
+}
+/*------ 左侧侧边栏hover 隐藏 的 div 的  商品细节 ------*/
+.banner #sidebar .details{
+	position: absolute;left: 210px;top: -1px;z-index: 100;
+	width: 1000px;background-color: #f7f7f7;overflow: hidden;
+	border: 1px solid #c81623;border-left: none;color: #666;
+	min-height: 465px;_height: 465px;display: none;
+}
+#sidebar .details .details-left{
+	width: 760px;padding: 10px 16px;float: left;
+}
+/*---- 商品细节的顶部 ------*/
+#sidebar .details .details-left .details-left-top{
+	overflow: hidden;
+}
+.details-left-top > li{
+	float: left;margin-right: 10px;
+}
+.details-left-top > li > a{
+	display: block;background-color: #7c7171;font-size: 14px; color: #fff;
+	height:26px;line-height: 26px;padding-left: 6px;text-align: center;
+}
+.details-left-top > li > a > span{
+	display: inline-block;width: 23px;height: 26px;line-height: 26px;
+	text-align: center;margin-left: 6px;background-color: #5c5251;
+}
+.details-left-top > li > a:hover{
+	background-color: #c81623;
+}
+.details-left-top > li > a:hover span{
+	background-color: #b1191a;
+}
+/*------- 商品细节的 主要内容 ------*/
+#sidebar .details .details-left .details-left-content{
+	overflow: hidden;margin-top: 6px;
+}
+.details-left-content dt{
+	float: left;color: #666666;margin-right: 8px;
+	height: 24px;line-height: 24px;padding: 8px 0;
+}
+.details-left-content dt a{
+	font:700 12px/24px "微软雅黑";
+	float: left;text-align: right;margin-right: 5px;width: 50px;
+}
+.details-left-content dt a:hover{
+	color: #C81623;
+}
+.details-left-content dt span{
+	float: left;width: 20px;
+}
+.details-left-content dd{
+	float: left;width: 620px;padding: 8px 0;
+	border-bottom: 1px solid #e0e0e0;
+}
+.details-left-content dd > ul > li{
+	height: 24px;line-height: 24px;float: left;
+}
+.details-left-content dd > ul > li a{
+	color: #666;padding: 0 8px;border-left: 1px solid #e0e0e0;
+	font:400 12px/24px "微软雅黑";
+}
+.details-left-content dd > ul > li a:hover{
+	color: #C81623;
+}
+/*----隐藏盒子 的 图片------*/
+#sidebar .details .details-right{
+	width: 168px;margin-right: 20px;margin-top: 20px;float: right;
+}
+#sidebar .details .details-right .details-right-top{
+	width: 168px;margin-bottom: 10px;overflow: hidden;
+}
+.details-right-top a{
+	float: left;margin-right: 1px;margin-bottom: 1px;
+	width: 83px;height: 35px;overflow: hidden;
+}
+#sidebar .details .details-right .details-right-bottom{
+	width: 168px;
+}
+.details-right-bottom a{
+	display: block;margin-top: 2px;
+}
+
+/*----图片轮播------*/
+#banner{
+	float: left;margin-left: 10px;margin-top: 12px;
+	width: 730px;height: 454px;position: relative;
+}
+#banner .bannerImg{
+	overflow: hidden;position: relative;width: 730px;height: 454px;
+}
+#banner .bannerImg li{
+	position: absolute;left:0;top:0;display: none;
+}
+#banner .bannerNum{
+	position:absolute;bottom:10px; left:0;margin: 0 auto;width: 160px;margin-left:260px;
+}
+#banner .bannerNum li{
+	float:left;width:20px;height:20px;line-height:20px;text-align: center;
+	background:#3e3e3e; border-radius:50%; margin:0 3px; cursor:pointer;
+	color:#fff;font-size: 12px;
+}
+#banner .bannerNum .imgSelected{
+	background:#C81623;color: #fff;
+}
+#banner .btn{
+	display:block;position:absolute;top:50%; margin-top:-30px;
+	width:30px; height:60px;text-align:center; line-height:60px;  
+	background: rgba(68, 68, 68, 0.4);cursor:pointer; 
+	color:#fff; font-size:40px; font-family:"宋体";display:none;
+}
+#banner .prevBtn{
+	left:0;
+}
+#banner .nextBtn{
+	right:0;
+}
+
+/*----右侧边栏-----*/
+.banner .bannerRight{
+	float:right;margin-top: 12px;width: 250px;overflow: hidden;height: 454px;
+}
+/*----右侧边栏的  新闻 -----*/
+.bannerRight .news{
+	border: 1px solid #ccc;font: 12px/150% Arial,Verdana;
+}
+.news h3{
+	height: 32px;line-height: 32px;padding: 0 16px;
+	color: #666666;font-size: 16px;font-weight: 100;
+	border-bottom: 1px dotted #ccc;
+}
+.news h3 a{
+	float: right;font-size: 12px;color: #666;
+}
+.news h3 a:hover{
+	color: #B1191A;
+}
+.news .newsNotice{
+	padding: 6px 16px;
+}
+.news .newsNotice li{
+	line-height: 24px;
+}
+.news .newsNotice li a{
+	color: #666;
+}
+.news .newsNotice li strong{
+	padding-right:4px;
+}
+.news .newsNotice li a:hover{
+	color: #B1191A;
+}
+/*----右侧边栏的  便利 服务 通道 -----*/
+.bannerRight .advantage{
+	overflow: hidden;border-left: 1px solid #ccc;
+}
+.advantage li{
+	float: left;
+}
+.advantage li a{
+	display: block;width: 61px;height: 54px;color: #666;
+	padding-top: 13px;text-align: center;line-height: 32px;
+	border-bottom: 1px solid #ccc;border-right: 1px solid #ccc;
+}
+.advantage li a:hover{
+	color: #B1191A;
+}
+.advantage li a span{
+	display: block;width: 25px;height: 25px;margin: 0 auto;
+}
+
+/*----右侧边栏的  便利 服务 通道 的内容  -----*/
+.bannerRight .advContent{
+	position: relative;overflow: hidden;display: none;
+}
+.advContent .advHeader{
+	overflow: hidden;border-left: 1px solid #ccc;
+}
+.advContent .advHeader li{
+	float: left;height: 27px;line-height: 27px;width: 61px;
+	border-right: 1px solid #ccc;border-bottom: 1px solid #ccc;
+	text-align: center;color: #666;cursor: pointer;	
+}
+.advContent .advHeader .headStyle{
+	height: 26px;border-top: 2px solid #c81623;border-bottom: none;
+}
+.advContent .close{
+	position: absolute;right: 0;top: 28px;z-index: 100;
+	display: block;width: 20px;height: 20px;line-height: 20px;
+	text-align: center;color: #666;cursor: pointer;
+}
+.advContent .close:hover{
+	background-color: #ccc;
+	color: #fff;
+}
+
+/*------便利通道的信息---------*/
+.advContent .advMessage{
+	display: none;
+}
+
+/*------话费-------*/
+.advContent .recharge{
+	width: 227px;padding: 10px 10px 0;border: 1px solid #ccc;border-top: none;
+}
+.recharge .rechargeList{
+	overflow: hidden;
+}
+.recharge .rechargeList li{
+	float: left;margin-right: 10px;color: #666;
+	padding: 0 3px;cursor: pointer;
+}
+.recharge .rechargeList .fareStyle{
+	background-color: #c81623;color: #fff;
+}
+/*----话费充值 li---*/
+.recharge .msg{
+	margin-top: 10px;display: none;
+}
+.recharge .input{
+	margin-bottom: 10px;
+}
+.recharge .input > span{
+	display: inline-block;margin-right: 9px;color: #666;
+}
+.recharge .phoneNum{
+	width: 100px;height: 20px;padding: 0 5px;
+	border: 1px solid #ccc;font-size: 12px;
+}
+/*------fare 费  select option--------*/
+.recharge .fare{
+	width: 60px;height: 20px;border: 1px solid #ccc;color: #666;
+}
+/*-----快速充值------*/
+.recharge .fastRecharge{
+	width: 67px;height: 26px;color: #fff;border-radius: 3px;
+	background-color: #c81623;font-size: 12px;border: none;
+}
+.recharge .hot{
+	margin-top: 16px;margin-bottom: 10px;
+}
+.recharge .hot a{
+	color: #005ea7;padding-left: 30px;
+	background: url(../img/banner/hot.png) no-repeat 0 center;
+}
+
+/*-----机票-----*/
+.advContent .planeTicket{
+	width: 237px;height: 165px;position: relative;
+	padding: 10px 0 0 10px;border: 1px solid #ccc;
+	border-top: none;color: #666;
+}
+.planeTicket .ticketList{
+	overflow: hidden;
+}
+.planeTicket .ticketList li{
+	float: left;margin-right: 10px;color: #666;padding: 0 3px;cursor: pointer;
+}
+.planeTicket .ticketList .ticketStyle{
+	background-color: #c81623;color: #fff;
+}
+.planeTicket .ticketBox{
+	width: 952px;height: 135px;position: absolute;top: 34px;left: 10px;
+}
+.planeTicket .ticketBox .buyTicket{
+	float: left;width: 238px;
+}
+/*是否往返*/
+.planeTicket .pt{
+	margin-top: 10px;
+}
+.planeTicket .way{
+	vertical-align: -2px;
+}
+.planeTicket .startPosition{
+	overflow: hidden;
+}
+.planeTicket .startPosition u{
+	float: left;display: block;width: 28px;height: 26px;
+	background: url(../img/banner/city.jpg) no-repeat center;
+}
+.planeTicket .startPosition i{
+	display: block;width: 28px;height: 26px;float: left;
+}
+.planeTicket .startPosition p{
+	width: 90px;height: 26px;position: relative;float: left;
+}
+.planeTicket .startPosition input{
+	width: 50px;height: 22px;border: 1px solid #ccc;padding-left: 40px;
+}
+.planeTicket .startPosition span{
+	display: block;width: 34px;height: 24px;line-height: 24px;
+	text-align: center;background-color: #f5f5f5;
+	position: absolute;left: 1px;top: 1px;
+}
+.planeTicket .ticketSearch input{
+	width: 67px;height: 26px;color: #fff;background-color: #c81623;
+	font-size: 12px;border: none;border-radius: 3px;margin-right: 12px;
+}
+.planeTicket .ticketSearch a{
+	color: #666;
+}
+.planeTicket .ticketSearch a:hover{
+	color: #B1191A;
+}
+
+/*-----特惠活动-------*/
+.planeTicket .activity{
+	overflow: hidden;margin-top: 10px;padding: 8px 0 10px;
+}
+.planeTicket .activity a{
+	float: left;margin-right: 10px;
+}
+
+/*------电影票------*/
+.advContent .movie{
+	width: 237px;padding: 10px 0 0 10px;
+	border: 1px solid #ccc;border-top: none;
+}
+.movie .movieList{
+	overflow: hidden;
+}
+.movie .movieList li{
+	float: left;margin-right: 10px;color: #666;
+	padding: 0 3px;cursor: pointer;
+}
+.movie .movieList .movieStyle{
+	background-color: #c81623;color: #fff;
+}
+.movie .mv{
+	display: none;
+}
+
+/*-----正在热映-------*/
+.movie .showing{
+	overflow: hidden;margin-left: 4px;margin-top: 4px;
+}
+
+/*-----即将上映------*/
+.movie .comingSoon{
+	overflow: hidden;margin-left: 4px;margin-top: 4px;
+}
+.movie dl{
+	float: left;width: 65px;margin-right: 12px;
+}
+.movie dl dt a{
+	display: block;width: 62px;
+} 
+.movie dl dt a img{
+	width: 100%;
+}
+.movie dl dd input{
+	width: 57px;height: 20px;color: #fff;border: none;border-radius: 3px;
+	font-size: 12px;display: block;margin: 5px auto;margin-bottom: 2px;
+}
+.movie .showing dl dd input{
+	background-color: #c81623;
+}
+.movie .comingSoon dl dd input{
+	background-color: #005EA7;
+}
+.movie .movieHot{
+	margin-bottom: 2px;
+}
+.movie .movieHot a{
+	color: #005ea7;padding-left: 26px;
+	background: url(../img/banner/hot.png) no-repeat 0 center;
+}
+.movie .movieHot a:hover{
+	color: #c81623;
+}
+
+/*------游戏---------*/
+.advContent .game{
+	width: 237px;height: 165px;padding: 10px 0 0 10px;
+	border: 1px solid #ccc;border-top: none;color: #666;position: relative;
+}
+.game .gameList{
+	overflow: hidden;
+}
+.game .gameList li{
+	float: left;margin-right: 10px;color: #666;padding: 0 3px;cursor: pointer;
+}
+.game .gameList .gameStyle{
+	background-color: #c81623;
+	color: #fff;
+}
+/*-----装网页游戏的box----------*/
+.game .gameBox{
+	width: 720px;height: 145px;
+	position: absolute;top: 34px;left: 10px;
+}
+/*--------点卡----------*/
+.game .gm{
+	margin-top: 10px;height: 135px;width: 240px;float: left;
+}
+.game .gm p{
+	margin-bottom: 6px;position: relative;width: 228px;height: 26px;
+}
+.game .gm p input{
+	width: 190px;height: 22px;padding-left: 38px;border: 1px solid #ccc;
+}
+.game .gm p .gameName{
+	background: url(../img/banner/icon1.png) no-repeat 206px center;
+}
+.game .gm p .gameMoney{
+	background: url(../img/banner/icon2.png) no-repeat 209px center;
+}
+.game .gm p span{
+	display: block;width: 34px;height: 24px;line-height: 24px;text-align: center;
+	position: absolute;left: 1px;top: 1px;background-color: #f5f5f5;
+}
+/*--------充值方式--------*/
+.game .gm .rechargeWay{
+	margin-top: 10px;
+}
+.game .gm .rechargeWay span{
+	display: inline-block;width: 74px;color: #c81623;font-size: 14px;
+}
+.game .gm .rechargeWay input{
+	vertical-align: -2px;
+}
+.game .gm .quickRecharg{
+	margin-top: 10px;
+}
+.game .gm .quickRecharg input{
+	width: 57px;height: 20px;color: #fff;border: none;
+	border-radius: 3px;font-size: 12px;margin-bottom: 2px;
+	background-color: #c81623;margin-right: 10px;
+}
+.game .gm .quickRecharg a{
+	color: #666;
+}
+.game .gm .quickRecharg a:hover{
+	color: #c81623;
+}
+/*------网页游戏--------*/
+.game .webGame{
+	overflow: hidden;padding-top: 10px;height: 125px;
+}
+.game .webGame a{
+	float: left;margin-right: 10px;width: 105px;
+}
+.game .webGame a img{
+	width: 100%;
+}
+
+/*----右侧边栏的 小广告 图片-----*/
+.adlet{
+	border-top: solid 1px #e4e4e4;width:245px;margin-top:10px;
+}
+.adlet a{
+	display:inline-block;height:70px;width:245px;
+	background:url(../img/banner/adlet.jpg) ;
+}

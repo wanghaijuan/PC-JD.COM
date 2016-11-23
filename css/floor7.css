@@ -1,0 +1,154 @@
+/*7楼*/
+.floor7Box{
+	width: 100%;margin-top: 20px;
+}
+.floor7{
+	width: 1210px;margin: 0 auto;overflow: hidden;
+}
+/*7楼的左部*/
+.floor7 .floor7Left{
+	width: 210px;height: 238px;padding-top: 236px;
+	background: url(../img/floor7/001.jpg) no-repeat;float: left;
+}
+/*7楼的左部的上部*/
+.floor7 .floor7Left .floor7LeftTop{
+	overflow: hidden;background: #e4f6fd;padding: 10px;
+}
+.floor7 .floor7Left .floor7LeftTop li{
+	float: left;
+}
+.floor7 .floor7Left .floor7LeftTop li a{
+	display: block;width: 58px;height: 26px;line-height: 26px;
+	color: #666666;padding-left: 30px;
+}
+.floor7 .floor7Left .floor7LeftTop a:hover{
+	color: #B1191A;
+}
+.floor7 .floor7Left .floor7LeftTop .floor7LeftTopA1 a{
+	background: url(../img/floor7/livingsicon.png) no-repeat 0 0;
+	margin-bottom: 20px;margin-right: 10px;
+}
+.floor7 .floor7Left .floor7LeftTop .floor7LeftTopA2 a{
+	background: url(../img/floor7/livingsicon.png) no-repeat 0 -26px;
+	margin-bottom: 20px;
+}
+.floor7 .floor7Left .floor7LeftTop .floor7LeftTopA3 a{
+	background: url(../img/floor7/livingsicon.png) no-repeat 0 -52px;
+	margin-right: 10px;
+}
+.floor7 .floor7Left .floor7LeftTop .floor7LeftTopA4 a{
+	background: url(../img/floor7/livingsicon.png) no-repeat 0 -78px;
+}
+/*7楼的左部的下部*/
+.floor7 .floor7Left .floor7LeftBottom{
+	background-color: #eff9fe;height: 100px;padding: 23px;
+}
+.floor7 .floor7Left .floor7LeftBottom a:hover{
+	color: #B1191A;
+}
+.floor7 .floor7Left .floor7LeftBottom p{
+	line-height: 26px;
+}
+.floor7 .floor7Left .floor7LeftBottom p a{
+	color: #666;
+}
+.floor7 .floor7Left .floor7LeftBottom .floor7LeftBottomList{
+	overflow: hidden;margin-top: 6px;
+}
+.floor7 .floor7Left .floor7LeftBottom .floor7LeftBottomList li{
+	float: left;margin-right: 12px;line-height: 24px;
+}
+.floor7 .floor7Left .floor7LeftBottom .floor7LeftBottomList li a{
+	color: #999;
+}
+.floor7 .floor7Left .floor7LeftBottom .floor7LeftBottomList li a:hover{
+	color: #B1191A;
+}
+.floor7 .floor7Left .floor7LeftBottom .floor7LeftBottomList .floor7LeftActive{
+	color: #B1191A;
+}
+
+/*7楼的右部*/
+.floor7Right{
+	width: 1000px;height: 474px;
+	position: relative;float: left;
+}
+.floor7Right .floor2Box1{
+	width: 1000px;height: 474px; 
+	position: absolute;left: 0;top: 0;display: none;
+}
+.floor7Right .floor7Box1 .smallPic{
+	width:219px;height: 473px;float: left;overflow: hidden;
+	border-bottom: 1px solid #ccc;border-right: 1px solid #ccc;
+}
+.floor7Right .floor7Box1 .smallPic > a{
+	display: block; border-bottom: 1px solid #ccc;border-right: 1px solid #ccc;
+}
+.floor7Right .floor7Box1 .floor7Scroll{
+	width: 339px;height: 473px;
+	border-right: 1px solid #ccc;border-bottom: 1px solid #ccc;
+	float: left;position: relative;overflow: hidden;
+}
+.floor7Right .floor7Box1 .floor2Scroll #floor7ScrollList{
+	width: 1695px;height: 473px;position: absolute;
+}
+#floor7ScrollList li{
+	width: 339px;height: 473px;float: left;
+}
+#floor7ScrollList li a{
+	display: block;
+}
+#floor7ScrollList li a:first-child{
+	border-bottom: 1px dashed #ccc;
+}
+.floor7Right .floor7Box1 > a{
+	float: left;border-right: 1px solid #ccc;border-bottom: 1px solid #ccc;
+}
+/*下标的样式*/
+.floor7 .floor7Right .floor7Box1 .floor7Scroll #floor7NumList{
+	position: absolute;width: 70px;height: 10px;line-height: 10px;
+	left: 50%;margin-left: -35px;bottom: 6px;
+}
+#floor7NumList li{
+	float: left;width: 10px;height: 10px;border-radius: 5px;
+	background-color: #3e3e3e;margin-right: 6px;cursor: pointer;
+}
+#floor7NumList .floor7NumListActive{
+	background-color: #B1191A;
+}
+/*轮播图中的上一张和下一张*/
+.floor7Scroll span{
+	display: block;position: absolute;width: 30px;
+	height: 60px;font-size: 30px;text-align: center;
+	line-height: 60px;color: #fff;
+	background: rgba(68, 68, 68, 0.4);
+	top: 50%;margin-top: -30px;cursor: pointer;display: none;
+}
+.floor7Scroll .floor7ToLeft{
+	left: 0;
+}
+.floor7Scroll .floor7ToRight{
+	right: 0;
+}
+
+/*其它的商品列表框*/
+.floor7Right .floor7Box2{
+	overflow: hidden;display: none;
+}
+.floor7Right .floor7Box2 li{
+	float: left;width: 169px;height: 206px;padding: 15px;
+	border-bottom: 1px solid #ccc;border-right: 1px solid #ccc;
+}
+.floor7Right .floor7Box2 li dl dt img{
+	margin: 0 auto;
+}
+.floor7Right .floor7Box2 .floor7Box2ListDesc{
+	display: block;height: 44px;line-height: 22px;overflow: hidden;
+	color: #666;margin-top: 10px;margin-bottom: 4px;
+}
+.floor7Right .floor7Box2 .floor7Box2ListDesc:hover{
+	color: #C81623;
+}
+.floor7Right .floor7Box2 .floor7Box2ListPrice{
+	font-size: 16px;color: #e4393c;
+}
